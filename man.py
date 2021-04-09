@@ -10,7 +10,7 @@ def pair(num):
         result = False
     return result
 
-#Use man.ordern([0,2,3,20,5,2,50]), the result is order
+#Use man.orderArray([0,2,3,20,5,2,50]), the result is order
 def orderArray(array):
 	numberis = len(array)
 	torepeat = False
@@ -32,6 +32,18 @@ def orderArray(array):
 			repeathat = False
 	
 	return array
+
+#Use man.reverseArray([0,2,5,1,5,34]), the result is reverse
+def reverseArray(array):
+    numberis = len(array)
+    numberis2 = numberis // 2
+    for i in range(numberis2):
+        y = numberis - i - 1
+        m = array[i]
+        array[i] = array[y]
+        array[y] = m
+    return array
+
 
 #Use man.paused()
 def paused():
