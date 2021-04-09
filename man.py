@@ -11,7 +11,7 @@ def pair(num):
     return result
 
 #Use man.ordern([0,2,3,20,5,2,50]), the result is order
-def ordern(array):
+def orderArray(array):
 	numberis = len(array)
 	torepeat = False
 	repeathat = True
