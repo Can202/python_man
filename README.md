@@ -13,7 +13,7 @@ reverse = man.reverseArray([num1,num2,num3]) # return array
 
 # Install
 
-1. Download man.py
+1. Download man.py - here https://github.com/Can202/python_man/releases/download/v1.0/man.py
 
 2. Put the man.py next to your code
 
