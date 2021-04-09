@@ -7,7 +7,7 @@ man.paused()
 
 pair = man.pair(number) #return boolean
 
-order = man.ordern([num1,num2,num3]) # return array
+order = man.orderArray([num1,num2,num3]) # return array
 
 # Install
 
@@ -20,3 +20,5 @@ order = man.ordern([num1,num2,num3]) # return array
 import man
 
 in your code (at the start)
+
+4. Use the functions
