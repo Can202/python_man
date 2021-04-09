@@ -9,6 +9,8 @@ pair = man.pair(number) #return boolean
 
 order = man.orderArray([num1,num2,num3]) # return array
 
+reverse = man.reverseArray([num1,num2,num3]) # return array
+
 # Install
 
 1. Download man.py
@@ -17,8 +19,8 @@ order = man.orderArray([num1,num2,num3]) # return array
 
 3. Write 
 
-import man
+  import man
 
-in your code (at the start)
+  in your code (at the start)
 
 4. Use the functions
