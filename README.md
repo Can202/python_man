@@ -1,5 +1,5 @@
 # python_man
-simple lib, clear, pause, see if pair, order array
+simple lib, clear, pause, see if pair, order Vector
 
 man.clear()
 
@@ -7,13 +7,13 @@ man.paused()
 
 pair = man.pair(number) #return boolean
 
-order = man.orderArray([num1,num2,num3]) # return array
+order = man.orderVector([num1,num2,num3]) # return Vector
 
-reverse = man.reverseArray([num1,num2,num3]) # return array
+reverse = man.reverseVector([num1,num2,num3]) # return Vector
 
 # Install
 
-1. Download man.py - here https://github.com/Can202/python_man/releases/download/v1.0/man.py
+1. Download man.py - here https://github.com/Can202/python_man/releases/download/v1.1/man.py
 
 2. Put the man.py next to your code
 

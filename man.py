@@ -10,9 +10,9 @@ def pair(num):
         result = False
     return result
 
-#Use man.orderArray([0,2,3,20,5,2,50]), the result is order
-def orderArray(array):
-	numberis = len(array)
+#Use man.orderVector([0,2,3,20,5,2,50]), the result is order
+def orderVector(vector):
+	numberis = len(vector)
 	torepeat = False
 	repeathat = True
 
@@ -20,29 +20,29 @@ def orderArray(array):
 		i = 0
 		for i in range(numberis):
 			if i != 0:
-				if array[i] < array[i-1]:
+				if vector[i] < vector[i-1]:
 					torepeat = True
-					m = array[i-1]
-					array[i-1] = array[i]
-					array[i] = m
+					m = vector[i-1]
+					vector[i-1] = vector[i]
+					vector[i] = m
 		if torepeat == True:
 			torepeat = False
 			repeathat = True
 		else:
 			repeathat = False
 	
-	return array
+	return vector
 
-#Use man.reverseArray([0,2,5,1,5,34]), the result is reverse
-def reverseArray(array):
-    numberis = len(array)
+#Use man.reverseVector([0,2,5,1,5,34]), the result is reverse
+def reverseVector(vector):
+    numberis = len(vector)
     numberis2 = numberis // 2
     for i in range(numberis2):
         y = numberis - i - 1
-        m = array[i]
-        array[i] = array[y]
-        array[y] = m
-    return array
+        m = vector[i]
+        vector[i] = vector[y]
+        vector[y] = m
+    return vector
 
 
 #Use man.paused()
