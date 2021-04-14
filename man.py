@@ -1,3 +1,7 @@
+
+# Made by Can202
+# GPL v3.0
+
 import getpass
 import os
 
